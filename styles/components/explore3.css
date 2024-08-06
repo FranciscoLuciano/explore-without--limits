@@ -1,0 +1,167 @@
+
+
+.page-3 {
+    overflow: hidden;
+    
+}
+
+.title-form {
+    color: #B52184;
+    font-size: 42px;
+
+    padding-top: 95px;
+    padding-bottom: 30px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+
+    overflow: hidden;
+    /* gap: 24px; */
+}
+
+.name-form {
+    border: 1px solid gray;
+    border-radius: 16px;
+
+    width: 512px;
+
+    padding: 16px 16px 16px 35px;
+}
+
+.name-form::placeholder {
+    color: #312D64;
+}
+
+.email-form {
+    border: 1px solid gray;
+    border-radius: 16px;
+
+    width: 512px;
+
+    padding: 16px 16px 16px 42px;
+}
+
+.email-form::placeholder {
+    color: #312D64;
+}
+
+.description-form {
+    border: 1px solid gray;
+    border-radius: 16px;
+
+    padding: 16px;
+
+    width: 512px;
+    height: 126px;
+
+    margin-top: 20px;
+}
+
+.description-form::placeholder {
+    font-family: 'Mulish', sans-serif;
+    color: #312D64;
+}
+
+.input-forms i {
+    position: relative;
+    top: 32px;
+    left: 15px;
+
+    color: #B52184;
+}
+
+.input-email i {
+    position: relative;
+    top: 30px;
+    left: 15px;
+
+    color: #B52184;
+}
+
+.final-button {
+    padding: 10px 16px;
+    background: linear-gradient(153deg, rgba(52, 49, 147, 1) 0%, rgba(48, 44, 99, 1) 100%);
+    border-radius: 16px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    height: 45px;
+    width: 160px;
+    font-weight: 700;
+
+    transition: all 0.4s;
+}
+
+.final-button:hover {
+    opacity: 0.9;
+}
+
+.img-stars{
+    
+}
+
+.formulario-princ {
+    width: 1290px;
+    margin: auto;
+    
+    display: flex;
+    gap: 75px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(104deg, rgba(52, 49, 147, 1) 0%, rgba(48, 44, 99, 1) 100%);
+    font-size: 0.9rem;
+    padding: 1.6rem;
+    font-weight: 600;
+
+    color: white;
+
+}
+
+@media (width < 1290px){
+    .page-3{
+        padding-inline: 0px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: center;
+    }
+    
+    .formulario-princ{
+        align-items: center;
+        width: auto;
+    }
+    
+    .img-stars{
+        display: none;
+    }
+
+    .title-form{
+        font-size: 32px;
+    }
+    
+    .name-form{
+        width: 348px;
+    }
+
+    .email-form{
+        width: 348px;
+    }
+
+    .description-form{
+        width: 348px;
+    }
+
+    .final-button{
+        margin-bottom: 65px;
+        padding-block: 5px;
+    }
+}

@@ -1,0 +1,26 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/user.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/laptop.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Mulish', sans-serif;
+
+    align-items: center;
+    min-height: 100vh;
+
+  }
+  
+  img,
+  picture,
+  video,
+  canvas,
+  svg{
+    display: block;
+    max-width: 100%;
+  }
